@@ -1,0 +1,84 @@
+---
+sidebar: sidebar 
+permalink: task-create-volumes.html 
+keywords: azure netapp files, create volumes, create nfs volumes, netapp account, capacity pool, create capacity pool, mount path, get mount path, find mount path, mount volume 
+summary: Depois de configurar o ambiente de trabalho, você pode criar contas, pools de capacidade e volumes do Azure NetApp Files. 
+---
+= Crie e monte volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Depois de configurar o ambiente de trabalho, você pode criar contas, pools de capacidade e volumes do Azure NetApp Files.
+
+
+
+== Criar volumes
+
+Você pode criar volumes NFS ou SMB em uma conta do Azure NetApp Files nova ou existente.
+
+.Antes de começar
+* Se você quiser usar SMB, você deve ter configurado DNS e ative Directory.
+* Ao Planejar criar um volume SMB, você deve ter um servidor do Windows ative Directory disponível para o qual você pode se conetar. Você inserirá essas informações ao criar o volume.
+
+
+.Passos
+. Abra o ambiente de trabalho do Azure NetApp Files.
+. Clique em *Adicionar novo volume*.
+. Forneça as informações necessárias em cada página:
++
+** *Conta Azure NetApp Files*: Escolha uma conta Azure NetApp Files existente ou crie uma nova conta. Ao criar uma nova conta, você também pode escolher o Grupo de recursos que deseja usar.
++
+image:screenshot_anf_create_account.png["Uma captura de tela dos campos necessários para criar uma conta do Azure NetApp Files, que inclui um nome, assinatura do Azure, local e grupo de recursos."]
+
+** *Pool de capacidade*: Selecione um pool de capacidade existente ou crie um novo pool de capacidade.
++
+Se você criar um novo pool de capacidade, precisará especificar um tamanho e selecionar um https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels["nível de serviço"^].
+
++
+O tamanho mínimo para o pool de capacidade é de 4 TB. Você pode especificar um tamanho em múltiplos de 4 TB.
+
+** *Detalhes e Tags*: Insira um nome e tamanho de volume, o VNet e a sub-rede onde o volume deve residir e, opcionalmente, especifique tags para o volume.
+** *Protocolo*: Escolha o protocolo NFS ou SMB e insira as informações necessárias.
++
+Aqui está um exemplo de detalhes para NFS.
+
++
+image:screenshot_anf_nfs.gif["Uma captura de tela dos campos necessários para configurar um volume NFS."]
+
++
+Aqui está um exemplo de detalhes para SMB. Você precisará fornecer informações do ative Directory na próxima página quando configurar seu primeiro volume SMB.
+
++
+image:screenshot_anf_smb.gif["Uma captura de tela dos campos necessários para configurar um volume SMB."]
+
+
+
+. Se quiser que esse volume seja criado com base em um instantâneo de um volume existente, selecione o instantâneo na lista suspensa Nome do instantâneo.
+. Clique em *Adicionar volume*.
+
+
+.Resultado
+O novo volume é adicionado ao ambiente de trabalho.
+
+Continue com <<Monte volumes,montagem do volume de nuvem>>.
+
+
+
+== Monte volumes
+
+Acesse as instruções de montagem do BlueXP  para que você possa montar o volume em um host.
+
+.Passos
+. Abra o ambiente de trabalho.
+. Passe o Mouse sobre o volume e selecione *Monte o volume*.
++
+image:screenshot_anf_hover.png["Uma captura de tela das operações disponíveis quando você passa o cursor sobre um volume."]
+
+. Siga as instruções para montar o volume.
+

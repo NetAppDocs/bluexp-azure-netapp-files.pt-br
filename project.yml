@@ -1,0 +1,48 @@
+---
+settings:
+  name: Azure NetApp Files
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: pt-br,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: Azure NetApp Files docs
+    url: "/index.html"
+  - title: Notas de lançamento
+    entries:
+    - title: O que há de novo
+      url: "/whats-new.html"
+  - title: Comece agora
+    entries:
+    - title: Saiba mais sobre o Azure NetApp Files
+      url: "/concept-azure-netapp-files.html"
+    - title: Fluxo de trabalho de introdução
+      url: "/task-quick-start.html"
+    - title: Configure um aplicativo Microsoft Entra
+      url: "/task-set-up-azure-ad.html"
+    - title: Crie um ambiente de trabalho
+      url: "/task-create-working-env.html"
+  - title: Use o Azure NetApp Files
+    entries:
+    - title: Crie e monte volumes
+      url: "/task-create-volumes.html"
+    - title: Gerenciar volumes existentes
+      url: "/task-manage-volumes.html"
+    - title: Remova o Azure NetApp Files
+      url: "/task-remove-working-env.html"
+  - title: Conhecimento e apoio
+    entries:
+    - title: Registre-se para obter suporte
+      url: "/task-support-registration.html"
+    - title: Obtenha ajuda
+      url: "/task-get-help.html"
+  - title: Avisos legais
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

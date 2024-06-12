@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="8314edb21bf66f4096470cb83529f253" category="summary">O Azure NetApp Files permite que as empresas migrem e executem aplicações essenciais aos negócios essenciais aos negócios sensíveis à latência e exigentes no Azure, sem precisar refatorar a nuvem.</block>
+  <block id="8b53faee27870b72e0be69261d54a7ee" category="doc">Saiba mais sobre o Azure NetApp Files</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caraterísticas</block>
+  <block id="b4afab774d5aae036a66f2e95c63406b" category="list-text">O suporte a vários protocolos permite que as aplicações Linux e Windows sejam executadas de forma otimizada no Azure.</block>
+  <block id="86431e70f2e01436434235b95f27507f" category="list-text">Várias camadas de performance permitem um alinhamento próximo aos requisitos de performance de workload.</block>
+  <block id="0f5101975c831a1a6350155e818d4cbf" category="list-text">As principais certificações, incluindo SAP HANA, GDPR e HIPAA, permitem a migração dos workloads mais exigentes para o Azure.</block>
+  <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">Recursos adicionais no BlueXP </block>
+  <block id="5ae0183e058629fb85c6246d99460224" category="list-text">Migre dados NFS ou SMB para o Azure NetApp Files diretamente a partir do BlueXP . As migrações de dados são alimentadas por cópia e sincronização do BlueXP .</block>
+  <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">Saiba mais sobre cópia e sincronização do BlueXP </block>
+  <block id="2b881280cd278901df007a5e13d4bcd6" category="paragraph"><block ref="2b881280cd278901df007a5e13d4bcd6" category="inline-link-rx"></block></block>
+  <block id="08db1d63700c3fa1c62acd4830447cc5" category="list-text">Usando tecnologia orientada por inteligência artificial (AI), a classificação da BlueXP  pode ajudar você a entender o contexto dos dados e identificar dados confidenciais que residem em suas contas do Azure NetApp Files.</block>
+  <block id="726d1cad4d0527532460d1a853919ebc" category="inline-link">Saiba mais sobre a classificação BlueXP </block>
+  <block id="f55b18eeaddb29e4e968d14603f99e82" category="paragraph"><block ref="f55b18eeaddb29e4e968d14603f99e82" category="inline-link-rx"></block></block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Custo</block>
+  <block id="b8371ae9d98b29b8335a4aea09cdaff3" category="inline-link">Ver preços do Azure NetApp Files</block>
+  <block id="4b3f21f8a5b6bf8c27f851053be34ac4" category="paragraph"><block ref="4b3f21f8a5b6bf8c27f851053be34ac4" category="inline-link-rx"></block></block>
+  <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">Tenha em atenção que a sua subscrição e carregamento são mantidos pelo serviço Azure NetApp Files e não pela BlueXP .</block>
+  <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">Regiões suportadas</block>
+  <block id="d6c4ca89b6d4950d0522d6198b27af71" category="inline-link">Ver regiões do Azure suportadas</block>
+  <block id="e478c46d3908f35ce837f4cc77afb89b" category="paragraph"><block ref="e478c46d3908f35ce837f4cc77afb89b" category="inline-link-rx"></block></block>
+  <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">Obter ajuda</block>
+  <block id="edc3629fc8102552dbd6ec1e10e2b821" category="paragraph">Para problemas de suporte técnico associados ao Azure NetApp Files, use o portal do Azure para Registrar uma solicitação de suporte à Microsoft. Selecione sua assinatura Microsoft associada e selecione o nome do serviço *Azure NetApp Files* em *armazenamento*. Forneça as informações restantes necessárias para criar sua solicitação de suporte da Microsoft.</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">Links relacionados</block>
+  <block id="e920cd2b727ccdc464321f1b24b0a1eb" category="inline-link">NetApp BlueXP  website: Azure NetApp Files</block>
+  <block id="d2481b597ffa17042188ef5a1d63c33f" category="list-text"><block ref="d2481b597ffa17042188ef5a1d63c33f" category="inline-link-rx"></block></block>
+  <block id="6c32a3d0f1a665987b98dde5a0f96d7d" category="inline-link">Documentação do Azure NetApp Files</block>
+  <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
+  <block id="db75f0488f4e9bbad86a02da9a572896" category="inline-link">Documentação de cópia e sincronização do BlueXP</block>
+  <block id="bee3f8c9efef3b37d46180b5f2f33e22" category="list-text"><block ref="bee3f8c9efef3b37d46180b5f2f33e22" category="inline-link-rx"></block></block>
+  <block id="891df488cfe13b44b72c19fdd67847d8" category="summary">O Azure NetApp Files é um serviço de storage de arquivos nativo do Microsoft Azure de alta performance para suas principais aplicações empresariais. Esta documentação descreve como configurar e gerenciar o Azure NetApp Files usando o NetApp BlueXP .</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Direitos de autor</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciais</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patentes</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidade</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Aviso para BlueXP</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="af08318aa95b670c097bf944ab12d208" category="summary">Depois de configurar o ambiente de trabalho, você pode criar contas, pools de capacidade e volumes do Azure NetApp Files.</block>
+  <block id="9be5a2eae9bab39aee7d0161c137cd43" category="doc">Crie e monte volumes</block>
+  <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">Criar volumes</block>
+  <block id="15b71829402124199d38fc483f8a71b5" category="paragraph">Você pode criar volumes NFS ou SMB em uma conta do Azure NetApp Files nova ou existente.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de começar</block>
+  <block id="871a29db0a928b46295d82cee2357c13" category="list-text">Se você quiser usar SMB, você deve ter configurado DNS e ative Directory.</block>
+  <block id="943219d5074bb5ad25a6a5caf2ffdd2a" category="list-text">Ao Planejar criar um volume SMB, você deve ter um servidor do Windows ative Directory disponível para o qual você pode se conetar. Você inserirá essas informações ao criar o volume.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Passos</block>
+  <block id="3bf992a109f2a93d6d964ab2c501e805" category="list-text">Abra o ambiente de trabalho do Azure NetApp Files.</block>
+  <block id="e0e02b01eefffa92ef6dd41ca0bfddaa" category="list-text">Clique em *Adicionar novo volume*.</block>
+  <block id="8efbe080646813cd33c5297ebb1ef190" category="list-text">Forneça as informações necessárias em cada página:</block>
+  <block id="0df0074f5bda9b547c12ff0ac8f4a896" category="list-text">*Conta Azure NetApp Files*: Escolha uma conta Azure NetApp Files existente ou crie uma nova conta. Ao criar uma nova conta, você também pode escolher o Grupo de recursos que deseja usar.</block>
+  <block id="13ecbacd691c26d682199c2a13ae7ca8" category="inline-image-macro">Uma captura de tela dos campos necessários para criar uma conta do Azure NetApp Files, que inclui um nome, assinatura do Azure, local e grupo de recursos.</block>
+  <block id="be40baf84cfc673a091dfd1b17d7663a" category="paragraph"><block ref="be40baf84cfc673a091dfd1b17d7663a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dc3251c60a979588ce5f7932e69ba87" category="list-text">*Pool de capacidade*: Selecione um pool de capacidade existente ou crie um novo pool de capacidade.</block>
+  <block id="79f05e8f99917560625d1cf3f2d4fc5d" category="inline-link">nível de serviço</block>
+  <block id="c35795b8ffe511f480a251678339892b" category="paragraph">Se você criar um novo pool de capacidade, precisará especificar um tamanho e selecionar um<block ref="f998dd47925b345cb96cc9547dcf35dc" category="inline-link-rx"></block>.</block>
+  <block id="a3c94c8b9f3c752262861375cf98a86e" category="paragraph">O tamanho mínimo para o pool de capacidade é de 4 TB. Você pode especificar um tamanho em múltiplos de 4 TB.</block>
+  <block id="485ef9124372f546b80f3713ee3e96b4" category="list-text">*Detalhes e Tags*: Insira um nome e tamanho de volume, o VNet e a sub-rede onde o volume deve residir e, opcionalmente, especifique tags para o volume.</block>
+  <block id="3b608e06daf087ff8d8ec6c3426b4e86" category="list-text">*Protocolo*: Escolha o protocolo NFS ou SMB e insira as informações necessárias.</block>
+  <block id="91080ec993aad166af2bca2fdc134255" category="paragraph">Aqui está um exemplo de detalhes para NFS.</block>
+  <block id="dea14d87fa3d65df58f3beda6ccb3a30" category="inline-image-macro">Uma captura de tela dos campos necessários para configurar um volume NFS.</block>
+  <block id="643c51aaf0a263e7e8a915f608bbb548" category="paragraph"><block ref="643c51aaf0a263e7e8a915f608bbb548" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8f470daf6cfa2970c8395cc6be9c7612" category="paragraph">Aqui está um exemplo de detalhes para SMB. Você precisará fornecer informações do ative Directory na próxima página quando configurar seu primeiro volume SMB.</block>
+  <block id="384442b7c021ea920d5444dad3c474e3" category="inline-image-macro">Uma captura de tela dos campos necessários para configurar um volume SMB.</block>
+  <block id="f4b5aaab764c0b2d36fafa41b62e1b0d" category="paragraph"><block ref="f4b5aaab764c0b2d36fafa41b62e1b0d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="405c1e241cc1b6685d6c0cc7dbbc8042" category="list-text">Se quiser que esse volume seja criado com base em um instantâneo de um volume existente, selecione o instantâneo na lista suspensa Nome do instantâneo.</block>
+  <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">Clique em *Adicionar volume*.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Resultado</block>
+  <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">O novo volume é adicionado ao ambiente de trabalho.</block>
+  <block id="eaae7feedfb57c4ccdcc53c186726c56" category="inline-xref">montagem do volume de nuvem</block>
+  <block id="2f8952d0a4fb138ef90f78fb9a50fe88" category="paragraph">Continue com <block ref="b0f2178360372267ad19e1e8e4741e99" category="inline-xref-macro-rx"></block>.</block>
+  <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">Monte volumes</block>
+  <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">Acesse as instruções de montagem do BlueXP  para que você possa montar o volume em um host.</block>
+  <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">Abra o ambiente de trabalho.</block>
+  <block id="8298547bbbd227879ca27d72eedeb07a" category="list-text">Passe o Mouse sobre o volume e selecione *Monte o volume*.</block>
+  <block id="ed098667e58a3c583c4147e4fd6baaa8" category="inline-image-macro">Uma captura de tela das operações disponíveis quando você passa o cursor sobre um volume.</block>
+  <block id="2bfbdc93a5a4003da1039544054d6805" category="paragraph"><block ref="2bfbdc93a5a4003da1039544054d6805" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="38aa5b57f82843fe74bb954a343bf4e0" category="list-text">Siga as instruções para montar o volume.</block>
+  <block id="dece545908f7d551fbfc273f6cc28bd0" category="summary">Depois de configurar um aplicativo Microsoft Entra, crie um ambiente de trabalho do Azure NetApp Files no BlueXP  para que você possa começar a criar os volumes que você precisa.</block>
+  <block id="c5c12e22be965b4ae0e9fc5e1618bdbe" category="doc">Crie um ambiente de trabalho Azure NetApp Files</block>
+  <block id="68edde29e94c43ede539f86c9f17f4cf" category="paragraph">Depois de configurar um aplicativo Microsoft Entra e adicionar as credenciais ao BlueXP , crie um ambiente de trabalho do Azure NetApp Files para que você possa começar a criar os volumes de que você precisa.</block>
+  <block id="71f39774f72466b34fa315e04ab5f4a1" category="list-text">Na página Canvas, clique em *Adicionar ambiente de trabalho*.</block>
+  <block id="2083c7d3800af1239db96fe1162f3655" category="list-text">Selecione *Microsoft Azure*.</block>
+  <block id="911c1f7504e1a21488e846b256b7bf1e" category="list-text">Ao lado de Azure NetApp Files, selecione *Discover*.</block>
+  <block id="a34beec1b7d6385ec53b27551b09442d" category="list-text">Na página Detalhes, insira um nome de ambiente de trabalho e selecione as credenciais que você configurou anteriormente.</block>
+  <block id="26983a904e0717c520032a2178795368" category="list-text">Clique em *continuar*.</block>
+  <block id="b6a6d7c8275174f2de092d93ad59b406" category="paragraph">Agora você deve ter um ambiente de trabalho Azure NetApp Files.</block>
+  <block id="c6cfa7b72473b659c12fde377c3c0fd2" category="inline-image-macro">Uma captura de tela de um ambiente de trabalho do Azure NetApp Files.</block>
+  <block id="fc59e05409a5663145615b064d40391a" category="paragraph"><block ref="fc59e05409a5663145615b064d40391a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">O que se segue?</block>
+  <block id="2d8388ef854dfa09cecb11936ccce248" category="inline-link-macro">Comece a criar e gerenciar volumes</block>
+  <block id="7287a568988e3d4791216dba265eeae9" category="paragraph"><block ref="1e09faaddd6af4b1a47324cf37312df0" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">O NetApp fornece suporte para BlueXP  de várias maneiras. Amplas opções gratuitas de suporte autônomo estão disponíveis 24 horas por dia, 7 dias por semana, como artigos da base de conhecimento (KB) e um fórum da comunidade. O seu registo de suporte inclui suporte técnico remoto através de Bilheteira na Web.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenha ajuda</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">A NetApp oferece suporte ao BlueXP  e seus serviços de nuvem de várias maneiras. Amplas opções gratuitas de suporte autônomo estão disponíveis 24 horas por dia, 7 dias por semana, como artigos da base de conhecimento (KB) e um fórum da comunidade. O seu registo de suporte inclui suporte técnico remoto através de Bilheteira na Web.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Obtenha suporte para um serviço de arquivos do provedor de nuvem</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Para obter suporte técnico relacionado a um serviço de arquivo de provedor de nuvem, sua infraestrutura ou qualquer solução usando o serviço, consulte "obter ajuda" na documentação do BlueXP  para esse produto.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX para ONTAP</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service para Google Cloud</block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Para receber suporte técnico específico da BlueXP  e de suas soluções e serviços de storage, use as opções de suporte descritas abaixo.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Use opções de suporte autônomo</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Estas opções estão disponíveis gratuitamente, 24 horas por dia, 7 dias por semana:</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentação</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">A documentação do BlueXP  que você está visualizando no momento.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de conhecimento</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">PESQUISE na base de conhecimento do BlueXP  para encontrar artigos úteis para solucionar problemas.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Comunidades</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Junte-se à comunidade BlueXP  para seguir as discussões em curso ou criar novas.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Crie um caso com o suporte do NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Além das opções de suporte autônomo acima, você pode trabalhar com um especialista de suporte da NetApp para resolver quaisquer problemas depois de ativar o suporte.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Antes de começar</block>
+  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">Saiba como gerenciar credenciais associadas ao seu login no BlueXP</block>
+  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">Para usar o recurso *criar um caso*, primeiro você deve associar suas credenciais do site de suporte da NetApp ao login do BlueXP .<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>.</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Se você estiver abrindo um caso para um sistema ONTAP com um número de série, sua conta NSS deve estar associada ao número de série desse sistema.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">No BlueXP , selecione *Ajuda &gt; suporte*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Na página *recursos*, escolha uma das opções disponíveis em suporte técnico:</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Selecione *Ligue para nós* se quiser falar com alguém no telefone. Você será direcionado para uma página no NetApp.com que lista os números de telefone que você pode ligar.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Selecione *criar um caso* para abrir um ticket com um especialista em suporte da NetApp:</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Serviço*: Selecione o serviço ao qual o problema está associado. Por exemplo, BlueXP  quando específico para um problema de suporte técnico com fluxos de trabalho ou funcionalidade dentro do serviço.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Ambiente de trabalho*: Se aplicável ao armazenamento, selecione *Cloud Volumes ONTAP* ou *no local* e, em seguida, o ambiente de trabalho associado.</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">A lista de ambientes de trabalho está dentro do escopo da organização (ou conta) do BlueXP , do projeto (ou da área de trabalho) e do conetor que você selecionou no banner superior do serviço.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Prioridade do caso*: Escolha a prioridade para o caso, que pode ser baixa, média, alta ou Crítica.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Para saber mais detalhes sobre essas prioridades, passe o Mouse sobre o ícone de informações ao lado do nome do campo.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Descrição do problema*: Forneça uma descrição detalhada do seu problema, incluindo quaisquer mensagens de erro aplicáveis ou etapas de solução de problemas que você executou.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Endereços de e-mail adicionais*: Insira endereços de e-mail adicionais se você quiser que outra pessoa saiba sobre esse problema.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Anexo (Opcional)*: Carregue até cinco anexos, um de cada vez.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Os anexos estão limitados a 25 MB por ficheiro. As seguintes extensões de arquivo são suportadas: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx e csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Uma captura de tela do formulário criar um caso que permite criar um caso com o suporte da NetApp.</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Depois de terminar</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Um pop-up aparecerá com o número do seu caso de suporte. Um especialista em suporte da NetApp irá rever o seu caso e voltar para você em breve.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Para obter um histórico de seus casos de suporte, você pode selecionar *Configurações &gt; linha do tempo* e procurar ações chamadas "criar caso de suporte". Um botão à direita permite expandir a ação para ver detalhes.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">É possível que você encontre a seguinte mensagem de erro ao tentar criar um caso:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"Você não está autorizado a criar um caso contra o serviço selecionado"</block>
+  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">Esse erro pode significar que a conta NSS e a empresa de Registro com a qual está associada não são a mesma empresa de Registro para o número de série da conta BlueXP  (ou seja. 960xxxx) ou o número de série do ambiente de trabalho. Pode procurar assistência utilizando uma das seguintes opções:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Use o chat no produto</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Envie um caso não técnico em<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gerenciar seus casos de suporte (prévia)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Você pode visualizar e gerenciar casos de suporte ativos e resolvidos diretamente do BlueXP . Você pode gerenciar os casos associados à sua conta NSS e à sua empresa.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">O gerenciamento de casos está disponível como uma prévia. Planejamos refinar essa experiência e adicionar melhorias nos próximos lançamentos. Por favor, envie-nos feedback usando o chat no produto.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Observe o seguinte:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">O painel de gerenciamento de casos na parte superior da página oferece duas visualizações:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">A vista à esquerda mostra o total de casos abertos nos últimos 3 meses pela conta do usuário NSS que você forneceu.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">A visualização à direita mostra o total de casos abertos nos últimos 3 meses ao nível da sua empresa com base na sua conta NSS de utilizador.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Os resultados na tabela refletem os casos relacionados à exibição selecionada.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Você pode adicionar ou remover colunas de interesse e pode filtrar o conteúdo de colunas como prioridade e Status. Outras colunas fornecem apenas capacidades de ordenação.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Veja os passos abaixo para obter mais detalhes.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">Em um nível por caso, oferecemos a capacidade de atualizar notas de caso ou fechar um caso que ainda não esteja no status fechado ou pendente fechado.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Selecione *Gerenciamento de casos* e, se for solicitado, adicione sua conta NSS ao BlueXP .</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">A página *Gerenciamento de casos* mostra casos abertos relacionados à conta NSS associada à conta de usuário do BlueXP . Esta é a mesma conta NSS que aparece na parte superior da página *NSS Management*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Opcionalmente, modifique as informações exibidas na tabela:</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">Em *casos da organização*, selecione *Exibir* para ver todos os casos associados à sua empresa.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifique o intervalo de datas escolhendo um intervalo de datas exato ou escolhendo um intervalo de tempo diferente.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Uma captura de tela da opção acima da tabela na página de gerenciamento de casos que permite escolher um intervalo de datas exato ou os últimos 7 dias, 30 dias ou 3 meses.</block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtre o conteúdo das colunas.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Uma captura de tela da opção de filtro na coluna Status que permite filtrar casos que correspondem a um status específico, como Ativo ou fechado.</block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">O ícone de mais que aparece na tabela</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Altere as colunas que aparecem na tabela selecionando <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> e escolhendo as colunas que você deseja exibir.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Uma captura de tela que mostra as colunas que você pode mostrar na tabela.</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Um ícone com três pontos que aparece na última coluna da tabela</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">Gerencie um caso existente <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block>selecionando e selecionando uma das opções disponíveis:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Ver caso*: Veja detalhes completos sobre um caso específico.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* Atualizar notas de caso*: Forneça detalhes adicionais sobre o seu problema ou selecione *carregar arquivos* para anexar até um máximo de cinco arquivos.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* Fechar caso*: Forneça detalhes sobre por que você está fechando o caso e selecione *Fechar caso*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Uma captura de tela que mostra as ações que você pode realizar depois de selecionar o menu na última coluna da tabela.</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="00cac13dd28e1d8ca100e2d8ab02878c" category="summary">Depois de configurar o ambiente de trabalho, você pode gerenciar contas do Azure NetApp Files, pools de capacidade, volumes e snapshots.</block>
+  <block id="9038e7cfcfe9bb9df9afd31371070be8" category="doc">Gerenciar volumes existentes</block>
+  <block id="a2669b974873fd7c51079b5fcd7d7946" category="paragraph">Você pode gerenciar volumes existentes conforme suas necessidades de storage mudam. Você pode editar volumes, alterar o nível de serviço de um volume, gerenciar cópias Snapshot e excluir volumes.</block>
+  <block id="333d9261c295516441352ec57f1fbd5a" category="section-title">Edite o tamanho e as tags de um volume</block>
+  <block id="8cbb6213062bff0f8ae5d9232049a4ae" category="paragraph">Depois de criar um volume, você pode modificar seu tamanho e tags a qualquer momento.</block>
+  <block id="8acb095feb0a7824e13dd4cff484b450" category="list-text">Passe o Mouse sobre o volume e selecione *Editar*.</block>
+  <block id="c94fd6f55752bbd9d6ff1d91b90b2493" category="list-text">Modifique o tamanho e as tags conforme necessário.</block>
+  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">Clique em *aplicar*.</block>
+  <block id="d541c25f9313db86b9a30cdcc45ecf79" category="section-title">Altere o nível de serviço do volume</block>
+  <block id="43e1a577b6b8efef38b66ad99c2617e3" category="paragraph">Depois de criar um volume, você pode alterar o nível de serviço a qualquer momento, desde que o pool de capacidade de destino já exista.</block>
+  <block id="2b59b840a5b967b90d4d7ab8b92489af" category="list-text">Passe o Mouse sobre o volume e selecione *alterar nível de serviço*.</block>
+  <block id="83f077d776e69552c4da718ba6cb17ce" category="list-text">Selecione o pool de capacidade que fornece o nível de serviço desejado.</block>
+  <block id="e825f597d53c4a593117f3470853a08a" category="list-text">Clique em *alterar*.</block>
+  <block id="538a392da8eeab76314db8254ebf544b" category="paragraph">O volume é movido para o outro pool de capacidade sem afetar o volume.</block>
+  <block id="e479d2534f323a1275e2ed0809755e56" category="section-title">Gerenciar cópias Snapshot</block>
+  <block id="e8ae2d2b47ef8fe5d9635ba5138d815e" category="paragraph">As cópias Snapshot fornecem uma cópia pontual do volume. Criar cópias Snapshot, restaurar os dados para um novo volume e excluir cópias Snapshot.</block>
+  <block id="072ce5964f5857c89ec5dc601b703af3" category="list-text">Passe o Mouse sobre o volume e escolha uma das opções disponíveis para gerenciar cópias Snapshot:</block>
+  <block id="77920e8d9473162a2167976898eaa180" category="list-text">*Criar uma cópia Snapshot*</block>
+  <block id="ac5983a9eada1c7d1b2571955cdabebc" category="list-text">*Reverter volume para Snapshot*</block>
+  <block id="b4d6c5073915bd6ebc84d2c6c45d666f" category="list-text">*Excluir uma cópia Snapshot*</block>
+  <block id="df95b2ddbeefe0bd257bae9d1c7d663a" category="list-text">Siga as instruções para concluir a ação selecionada.</block>
+  <block id="f91674f3b22216fc484532cd24dda908" category="section-title">Eliminar volumes</block>
+  <block id="9497c556620605c0441cf034ff68a527" category="paragraph">Exclua os volumes que você não precisa mais.</block>
+  <block id="0dedd92db5a9dbde64f4da7d6f9d44b2" category="list-text">Passe o Mouse sobre o volume e clique em *Excluir*.</block>
+  <block id="085b0943196ae7c43e0a95af45bc731f" category="list-text">Confirme se pretende eliminar o volume.</block>
+  <block id="ffbef04ea072f1887001d16556efc89e" category="summary">Comece a usar o Azure NetApp Files configurando um aplicativo Microsoft Entra e criando um ambiente de trabalho.</block>
+  <block id="65ce4dce26160be29539699c6623e379" category="doc">Fluxo de trabalho de introdução</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Um</block>
+  <block id="6db31f7ad9ac5c8a399245b8721663fc" category="inline-link-macro">Configure um aplicativo Microsoft Entra</block>
+  <block id="4825dc1eb26b7e7de707e1565fcb2692" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ceb71631b57ba9aa78ded8805cd28ebf" category="inline-link-macro-rx"></block></block>
+  <block id="0e63ec6ed03b6c3507b12798044de570" category="paragraph">No Azure, conceda permissões a um aplicativo Microsoft Entra e copie o ID do aplicativo (cliente), o ID do diretório (locatário) e o valor de um segredo do cliente.</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Dois</block>
+  <block id="f952808a17fec1373e3f634132b93787" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="b5471f633d6bbd5984c5b9bab2234762" category="inline-link-macro-rx"></block></block>
+  <block id="b8d5d2846f8945e381075b2ce9a76df4" category="paragraph">No BlueXP , clique em *Adicionar ambiente de trabalho* &gt; *Microsoft Azure* &gt; *Azure NetApp Files* e, em seguida, forneça detalhes sobre o aplicativo AD.</block>
+  <block id="13c43cfa248ee9ee48d1991c668474b0" category="summary">Esta ação remove o Azure NetApp Files do BlueXP . Ele não exclui sua conta ou volumes do Azure NetApp Files. Você pode adicionar Azure NetApp Files de volta ao BlueXP  a qualquer momento.</block>
+  <block id="a5cd00357f60ad0eaa681bb68df15c6d" category="doc">Remova o Azure NetApp Files</block>
+  <block id="efe74b5ca066da05f9df0c24eabbf492" category="list-text">No canto superior direito da página, selecione o menu ações e clique em *Remover Azure NetApp Files*.</block>
+  <block id="a42000fc4cefeab473a0606b7c2ccf98" category="inline-image-macro">Uma captura de tela do clique em Remover Azure NetApp Files para remover os volumes da interface do BlueXP .</block>
+  <block id="b4c67aed64d2fb76a8c75220b0aa8a20" category="paragraph"><block ref="b4c67aed64d2fb76a8c75220b0aa8a20" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="40b851aafab82c78484c46169f816fd2" category="list-text">Clique em *Remover* para confirmar.</block>
+  <block id="9828caa55f8611addd0e5af14cd444c5" category="summary">O BlueXP  precisa de permissões para configurar e gerenciar o Azure NetApp Files. Você pode conceder as permissões necessárias a uma conta do Azure criando e configurando um aplicativo Microsoft Entra e obtendo as credenciais do Azure de que o BlueXP  precisa.</block>
+  <block id="28f3ebeb284e106f3db1ecdcf0c0d2ff" category="section-title">Passo 1: Crie o aplicativo</block>
+  <block id="1e6c9b3850b2a8aff77429d3da407ad1" category="paragraph">Crie um aplicativo e um responsável de serviço do Microsoft Entra que o BlueXP  pode usar para controle de acesso baseado em funções.</block>
+  <block id="9e0b4c608c2ed027fef07ddc68aae407" category="inline-link">Documentação do Microsoft Azure: Permissões necessárias</block>
+  <block id="f628a927678590abbad75664aa87e9c9" category="paragraph">Você deve ter as permissões certas no Azure para criar um aplicativo do ative Directory e atribuir o aplicativo a uma função. Para obter detalhes,<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block> consulte .</block>
+  <block id="3acc75f616414df16724fc2f4fe192eb" category="list-text">No portal do Azure, abra o serviço *Microsoft Entra ID*.</block>
+  <block id="abcaecfb112ec16a9054b876f99d7cf4" category="inline-image-macro">Uma captura de tela que mostra o serviço ative Directory no Microsoft Azure.</block>
+  <block id="5ee9dc93089da3e95c9863f5259127a3" category="paragraph"><block ref="5ee9dc93089da3e95c9863f5259127a3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="af88b24a1b0f5294f806d8d9f2744f27" category="list-text">No menu, clique em *inscrições de aplicativos*.</block>
+  <block id="cce8aa4eda34a5338284d12bd518d218" category="list-text">Crie a aplicação:</block>
+  <block id="0e1ac21d4b9ed97a0c89007cafe6b733" category="list-text">Clique em *novo registo*.</block>
+  <block id="c9034af778b085a9440ffcb8389cc4db" category="list-text">Especifique detalhes sobre o aplicativo:</block>
+  <block id="46beecb01aa2327ae1886dfc53955977" category="list-text">*Nome*: Insira um nome para o aplicativo.</block>
+  <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">*Tipo de conta*: Selecione um tipo de conta (qualquer funcionará com o BlueXP ).</block>
+  <block id="135a1682a5c17ecdf84e57a4dc0c0959" category="list-text">* URI de redirecionamento*: Você pode deixar isso em branco.</block>
+  <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">Clique em *Register*.</block>
+  <block id="e762ce4f71e8abc9d8deee4d4b7277fe" category="list-text">Copie o *ID do aplicativo (cliente)* e o *ID do diretório (locatário)*.</block>
+  <block id="7f2c8aa68f18e907a3c5a92e556d4a8a" category="inline-image-macro">Uma captura de tela que mostra o ID do aplicativo (cliente) e ID do diretório (locatário) para um aplicativo no Microsoft Entra ID.</block>
+  <block id="9f4ee24450c803ea94c43753456d43d1" category="paragraph"><block ref="9f4ee24450c803ea94c43753456d43d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b1aa1d55e881ad620ccb7139a00c81e3" category="paragraph">Quando você cria o ambiente de trabalho do Azure NetApp Files no BlueXP , você precisa fornecer o ID do aplicativo (cliente) e o ID do diretório (locatário) para o aplicativo. O BlueXP  usa os IDs para fazer login programaticamente.</block>
+  <block id="f397beec7c156a0c172682237bca0f10" category="list-text">Crie um segredo de cliente para o aplicativo para que o BlueXP  possa usá-lo para autenticar com o ID do Microsoft Entra:</block>
+  <block id="814ab761b05ac26a224a99eac97f2f4d" category="list-text">Clique em *certificados e segredos &gt; segredo de novo cliente*.</block>
+  <block id="56c696c4118c8dc3d2947c159fdbbb7c" category="list-text">Forneça uma descrição do segredo e uma duração.</block>
+  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">Clique em *Add*.</block>
+  <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">Copie o valor do segredo do cliente.</block>
+  <block id="9056be4df2e385c15b0e73176bcf8af3" category="inline-image-macro">Uma captura de tela do portal do Azure que mostra um segredo de cliente para o responsável do serviço Microsoft Entra.</block>
+  <block id="12714cc76b41e78029a66f330408bd82" category="paragraph"><block ref="12714cc76b41e78029a66f330408bd82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c8bbf58eacf91dbdd1fe26d0891f53b2" category="paragraph">Seu aplicativo AD agora está configurado e você deve ter copiado o ID do aplicativo (cliente), o ID do diretório (locatário) e o valor do segredo do cliente. É necessário inserir essas informações no BlueXP  quando você adiciona um ambiente de trabalho do Azure NetApp Files.</block>
+  <block id="fb9a62d97d21e431e752501f84624d12" category="section-title">Passo 2: Atribua o aplicativo a uma função</block>
+  <block id="4c52768b52ca020200e5a926929d951d" category="paragraph">Você deve vincular o principal de serviço à sua assinatura do Azure e atribuir-lhe uma função personalizada que tenha as permissões necessárias.</block>
+  <block id="c7fd7910cc533c79ed570ea74704425d" category="inline-link">Crie uma função personalizada no Azure</block>
+  <block id="ef25c1a0b85945d65e29d5346a5dd23f" category="list-text"><block ref="e0180ab247b74a9d02ca0dcc4d9ef2d3" category="inline-link-rx"></block>.</block>
+  <block id="10952fdd0e78f38d00c02822bb64d9b1" category="paragraph">As etapas a seguir descrevem como criar a função a partir do portal do Azure.</block>
+  <block id="e2ae07d27d3384c0537318da23aa8883" category="list-text">Abra a assinatura e clique em *Access Control (IAM)*.</block>
+  <block id="1ea0456d996b2276ee91fd4362bb66bb" category="list-text">Clique em *Adicionar &gt; Adicionar função personalizada*.</block>
+  <block id="639c5e298e30f6fe93b20d922ea17933" category="inline-image-macro">Uma captura de tela que mostra as etapas para adicionar uma função personalizada no portal do Azure.</block>
+  <block id="bf972dc955fe2e7fb9df0a81d06fb348" category="paragraph"><block ref="bf972dc955fe2e7fb9df0a81d06fb348" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8dea6ae979907327757e0387e92f235" category="list-text">Na guia *Basics*, insira um nome e uma descrição para a função.</block>
+  <block id="8060604257723ca88e5c0b4aae811455" category="list-text">Clique em *JSON* e clique em *Edit* que aparece no canto superior direito do formato JSON.</block>
+  <block id="0b7a672df763c13d4ee88f17e17d5dd5" category="list-text">Adicione as seguintes permissões em _ações_:</block>
+  <block id="afa30cd5df0391dfd6e11ab6184d695b" category="list-text">Clique em *Salvar*, clique em *Avançar* e, em seguida, clique em *criar*.</block>
+  <block id="1b9c98eb7545f64f6a6464cd44cdd443" category="list-text">Agora atribua o aplicativo à função que você acabou de criar:</block>
+  <block id="973ddd4ad0d28fecb4f9f0a53ca5ab21" category="list-text">No portal do Azure, abra o serviço *Subscrições*.</block>
+  <block id="9d13605979e591928497f3c94aa907c2" category="list-text">Selecione a subscrição.</block>
+  <block id="8174c4d89029818113468594f8347c70" category="list-text">Clique em *Access control (IAM) &gt; Add &gt; Add Role assignment* (Adicionar &gt; Adicionar atribuição de função*).</block>
+  <block id="5ecfbe785b688e69623e230a6d069787" category="list-text">Na guia *Role*, selecione a função personalizada que você criou e clique em *Next*.</block>
+  <block id="0a6c621aa17fc5940d876eaadda3bb73" category="list-text">Na guia *Membros*, execute as seguintes etapas:</block>
+  <block id="8663f7025266bcb72c4429db8da6c602" category="list-text">Mantenha *Usuário, grupo ou responsável do serviço* selecionado.</block>
+  <block id="e567d156455b03053b50302bf4ff266e" category="list-text">Clique em *Selecionar membros*.</block>
+  <block id="0972e60de3c49ba718e1aa6c9313eebc" category="inline-image-macro">Uma captura de tela do portal do Azure que mostra a guia Membros ao adicionar uma função a um aplicativo.</block>
+  <block id="3030207711e0d379c8a6c67f942d7c72" category="paragraph"><block ref="3030207711e0d379c8a6c67f942d7c72" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33aa57c696b6d88350adf8cda157f866" category="list-text">Procure o nome da aplicação.</block>
+  <block id="4d947fe0b5c4693f487f4fd1a4295c99" category="paragraph">Aqui está um exemplo:</block>
+  <block id="f6f55020a29188338bc94800ac249ad7" category="inline-image-macro">Uma captura de tela do portal do Azure que mostra o formulário Adicionar atribuição de função no portal do Azure.</block>
+  <block id="479d1c5255b557f4e6e3afb3beda5366" category="paragraph"><block ref="479d1c5255b557f4e6e3afb3beda5366" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e33ca9bd2b94654f882a0e0ed82dec19" category="list-text">Selecione a aplicação e clique em *Select*.</block>
+  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">Clique em *seguinte*.</block>
+  <block id="e3bbb08034982e47da96f9df0529c14b" category="list-text">Clique em *Rever e atribuir*.</block>
+  <block id="c86a116404367cba7aa3de3c0bc355d4" category="paragraph">O principal de serviço do BlueXP  agora tem as permissões necessárias do Azure para essa assinatura.</block>
+  <block id="8aa26a83223c9e21349efd7c3717ce88" category="section-title">Passo 3: Adicione as credenciais ao BlueXP </block>
+  <block id="6da49039903bd37fcbedcd3b748acd84" category="paragraph">Ao criar o ambiente de trabalho do Azure NetApp Files, você será solicitado a selecionar as credenciais associadas ao responsável pelo serviço. Você precisa adicionar essas credenciais ao BlueXP  antes de criar o ambiente de trabalho.</block>
+  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">No canto superior direito do console BlueXP , clique no ícone Configurações e selecione *credenciais*.</block>
+  <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">Uma captura de tela que mostra o ícone Configurações no canto superior direito do console BlueXP .</block>
+  <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">Clique em *Adicionar credenciais* e siga as etapas do assistente.</block>
+  <block id="221a3347761fd117ac4eff9ade4378ad" category="list-text">*Localização das credenciais*: Selecione *Microsoft Azure &gt; BlueXP *.</block>
+  <block id="10d9864d222fd249479246f9c50df58c" category="list-text">*Definir credenciais*: Insira informações sobre o responsável do serviço Microsoft Entra que concede as permissões necessárias:</block>
+  <block id="734082edf44417dd19cc65943aa65c36" category="list-text">Segredo Cliente</block>
+  <block id="5f92aba7d335e90da33ac643d56ed817" category="list-text">ID da aplicação (cliente)</block>
+  <block id="ac1fdeeca5975112ea2d53b754a4c94f" category="list-text">ID do diretório (locatário)</block>
+  <block id="c543fc2439a41974bc2b6bac672d9710" category="inline-xref">Criou a aplicação AD</block>
+  <block id="afc754526203b8139d9e8e3b479e16eb" category="paragraph">Você deve ter capturado essas informações quando <block ref="4c04735d63ac87af1416aeb4d3d106f8" category="inline-xref-macro-rx"></block>.</block>
+  <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">*Revisão*: Confirme os detalhes sobre as novas credenciais e clique em *Adicionar*.</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Antes de poder abrir um caso de suporte com o suporte técnico da NetApp, você precisa adicionar uma conta do site de suporte da NetApp à BlueXP  e, em seguida, Registrar-se para suporte.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registre-se para obter suporte</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">O Registro de suporte é necessário para receber suporte técnico específico da BlueXP  e de suas soluções e serviços de storage. O Registro de suporte também é necessário para habilitar fluxos de trabalho importantes para sistemas Cloud Volumes ONTAP.</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">O Registro para suporte não ativa o suporte do NetApp para um serviço de arquivos de provedor de nuvem. Para obter suporte técnico relacionado a um serviço de arquivo de provedor de nuvem, sua infraestrutura ou qualquer solução usando o serviço, consulte "obter ajuda" na documentação do BlueXP  para esse produto.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Visão geral do Registro de suporte</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Existem duas formas de Registro para ativar o direito de suporte:</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">Registar o número de série da sua conta BlueXP  (o número de série 960xxxxxxxxx de 20 dígitos localizado na página recursos de suporte no BlueXP ).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Isso serve como seu ID de assinatura de suporte único para qualquer serviço no BlueXP . Cada assinatura de suporte no nível de conta do BlueXP  deve ser registrada.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrando os números de série do Cloud Volumes ONTAP associados a uma assinatura no mercado do seu provedor de nuvem (estes são números de série de 20 dígitos 909201xxxxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Esses números de série são comumente referidos como _PAYGO serial numbers_ e são gerados pelo BlueXP  no momento da implantação do Cloud Volumes ONTAP.</block>
+  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">Registrar ambos os tipos de números de série permite recursos como abrir tickets de suporte e geração automática de casos. O Registro é concluído adicionando contas do site de suporte da NetApp (NSS) ao BlueXP , conforme descrito abaixo.</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">Registre o BlueXP  para obter suporte ao NetApp</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">Para se Registrar para obter suporte e ativar o direito de suporte, um usuário em sua organização (ou conta) do BlueXP  deve associar uma conta do site de suporte da NetApp ao login do BlueXP . A forma como você se Registra no suporte da NetApp depende se você já tem uma conta do site de suporte da NetApp (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente existente com uma conta NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Se você é um cliente da NetApp com uma conta NSS, você simplesmente precisa se Registrar para obter suporte através do BlueXP .</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">No canto superior direito do console BlueXP , selecione o ícone Configurações e selecione *credenciais*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Selecione *credenciais do usuário*.</block>
+  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Selecione *Adicionar credenciais NSS* e siga o prompt de autenticação do site de suporte da NetApp (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Para confirmar que o processo de Registro foi bem-sucedido, selecione o ícone Ajuda e selecione *suporte*.</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">A página *recursos* deve mostrar que sua organização do BlueXP  está registrada para suporte.</block>
+  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Uma captura de tela que mostra um número de série de conta e uma caixa de seleção verde e o texto registrado para suporte.</block>
+  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">Observe que outros usuários do BlueXP  não verão esse mesmo status de Registro de suporte se não tiverem associado uma conta do site de suporte da NetApp ao login do BlueXP . No entanto, isso não significa que sua organização do BlueXP  não esteja registrada para suporte. Desde que um usuário na organização tenha seguido esses passos, sua organização foi registrada.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente existente, mas sem conta NSS</block>
+  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">Se você já é um cliente NetApp com licenças e números de série existentes, mas _no_ conta NSS, você precisa criar uma conta NSS e associá-la ao seu login no BlueXP .</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulário de Registro do usuário do site de suporte da NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Crie uma conta do site de suporte da NetApp preenchendo o.<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Certifique-se de selecionar o nível de usuário apropriado, que normalmente é *Cliente NetApp/Usuário final*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Certifique-se de copiar o número de série da conta BlueXP  (960xxxx) usado acima para o campo de número de série. Isto irá acelerar o processamento da conta.</block>
+  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Associe a sua nova conta NSS ao seu login no BlueXP  executando as etapas em <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Novo na NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Se você é novo no NetApp e não tem uma conta NSS, siga cada passo abaixo.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">No canto superior direito do console do BlueXP , selecione o ícone Ajuda e selecione *suporte*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Uma captura de tela do menu Ajuda onde suporte é a primeira opção listada</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Localize o número de série da ID da conta na página Registro de suporte.</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site de Registro de suporte da NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navegue<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> e selecione *não sou um Cliente NetApp registado*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Preencha os campos obrigatórios (aqueles com asteriscos vermelhos).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">No campo *linha de produtos*, selecione *Cloud Manager* e, em seguida, selecione seu provedor de cobrança aplicável.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copie o número de série da sua conta a partir da etapa 2 acima, complete a verificação de segurança e confirme se leu a Política de Privacidade de dados globais da NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Um e-mail é enviado imediatamente para a caixa de correio fornecida para finalizar esta transação segura. Certifique-se de verificar suas pastas de spam se o e-mail de validação não chegar em poucos minutos.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirme a ação a partir do e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">A confirmação envia sua solicitação à NetApp e recomenda que você crie uma conta do site de suporte da NetApp.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Certifique-se de copiar o número de série da conta (960xxxx) usado acima para o campo de número de série. Isto irá acelerar o processamento.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">O NetApp deve entrar em Contato com você durante esse processo. Este é um exercício de integração única para novos usuários.</block>
+  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Depois de ter sua conta do site de suporte da NetApp, associe a conta ao login do BlueXP , executando as etapas em <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Associar credenciais NSS para suporte ao Cloud Volumes ONTAP</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">A associação das credenciais do site de suporte da NetApp à sua organização do BlueXP  é necessária para ativar os seguintes fluxos de trabalho principais para o Cloud Volumes ONTAP:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registro de sistemas Cloud Volumes ONTAP de pagamento conforme o uso para suporte</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Fornecer sua conta NSS é necessário para ativar o suporte para o seu sistema e para obter acesso aos recursos de suporte técnico da NetApp.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Implantando o Cloud Volumes ONTAP quando você traz sua própria licença (BYOL)</block>
+  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">É necessário fornecer a sua conta NSS para que o BlueXP  possa carregar a sua chave de licença e ativar a subscrição para o período que adquiriu. Isso inclui atualizações automáticas para renovações de prazo.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Atualizar o software Cloud Volumes ONTAP para a versão mais recente</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">Associar credenciais NSS à sua organização do BlueXP  é diferente da conta NSS associada a um login de usuário do BlueXP .</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Essas credenciais do NSS estão associadas ao ID específico da organização do BlueXP . Os utilizadores que pertencem à organização BlueXP  podem aceder a estas credenciais a partir de *suporte &gt; Gestão NSS*.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Se você tiver uma conta no nível do cliente, pode adicionar uma ou mais contas NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Se você tiver uma conta de parceiro ou revendedor, você pode adicionar uma ou mais contas NSS, mas elas não podem ser adicionadas ao lado de contas de nível de cliente.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Selecione *NSS Management &gt; Add NSS Account* (Gestão NSS &gt; Adicionar conta NSS*).</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Quando for solicitado, selecione *continuar* para ser redirecionado para uma página de login da Microsoft.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">O NetApp usa o Microsoft Entra ID como provedor de identidade para serviços de autenticação específicos para suporte e licenciamento.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Na página de login, forneça seu endereço de e-mail e senha registrados no site de suporte da NetApp para executar o processo de autenticação.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Essas ações permitem que o BlueXP  use sua conta NSS para tarefas como downloads de licenças, verificação de atualização de software e futuros Registros de suporte.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">A conta NSS tem de ser uma conta ao nível do cliente (não uma conta de convidado ou temporária). Você pode ter várias contas NSS no nível do cliente.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Só pode haver uma conta NSS se essa conta for uma conta de nível de parceiro. Se você tentar adicionar contas NSS no nível do cliente e existir uma conta no nível do parceiro, você receberá a seguinte mensagem de erro:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"O tipo de cliente NSS não é permitido para esta conta, uma vez que já existem utilizadores NSS de tipo diferente."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">O mesmo acontece se você tiver contas NSS pré-existentes no nível do cliente e tentar adicionar uma conta no nível do parceiro.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Após o login bem-sucedido, o NetApp armazenará o nome de usuário do NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Um ícone de três pontos horizontais</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Este é um ID gerado pelo sistema que mapeia para o seu e-mail. Na página *NSS Management*, você pode exibir seu e-mail no <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Se você precisar atualizar seus tokens de credenciais de login, há também uma opção *Atualizar credenciais* <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>no menu.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Usando esta opção, você solicita que você faça login novamente. Observe que o token para essas contas expira após 90 dias. Uma notificação será postada para alertá-lo sobre isso.</block>
+  <block id="ec8be1aa6f229a1cfbf31d037b056568" category="summary">Saiba o que há de novo com o suporte do Azure NetApp Files no BlueXP .</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">O que há de novo</block>
+  <block id="dd8cfbf7cdf2a4e727620130a84e82ae" category="paragraph">Saiba o que há de novo com o Azure NetApp Files no BlueXP .</block>
+  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">12 de junho de 2024</block>
+  <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">Nova permissão necessária</block>
+  <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">Agora é necessária a permissão a seguir para gerenciar volumes do Azure NetApp Files a partir do BlueXP :</block>
+  <block id="d84dc0ddea3fe691a4f90418dade9248" category="paragraph">Microsoft.Network/virtualNetworks/subnets/read</block>
+  <block id="642c767a957f879cd5a09310eef9e35e" category="paragraph">Esta permissão é necessária para ler uma sub-rede virtual.</block>
+  <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">Se você estiver gerenciando o Azure NetApp Files do BlueXP  no momento, precisará adicionar essa permissão à função personalizada associada ao aplicativo Microsoft Entra que você criou anteriormente.</block>
+  <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">Saiba como configurar um aplicativo Microsoft Entra e exibir as permissões de função personalizadas</block>
+  <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block>.</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">22 de abril de 2024</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">Modelos de volume já não são suportados</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Você não pode mais criar um volume a partir de um modelo. Essa ação foi associada ao serviço de correção do BlueXP , que não está mais disponível.</block>
+  <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">11 de abril de 2021</block>
+  <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">Suporte para modelos de volume</block>
+  <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">Um novo serviço modelos de aplicativos permite configurar um modelo de volume para o Azure NetApp Files. O modelo deve facilitar o trabalho porque certos parâmetros de volume já serão definidos no modelo, como pool de capacidade, tamanho, protocolo, VNet e sub-rede onde o volume deve residir e muito mais. Quando um parâmetro já está predefinido, você pode simplesmente pular para o próximo parâmetro de volume.</block>
+  <block id="65d2e55c231c87b516e734e63f823cf5" category="inline-link">Saiba mais sobre modelos de aplicativos e como usá-los em seu ambiente</block>
+  <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
+  <block id="1636ba950a663744d701c73060d64523" category="inline-link">Saiba como criar um volume Azure NetApp Files a partir de um modelo</block>
+  <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
+  <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">8 de março de 2021</block>
+  <block id="de5b4c52cc860c2f7cacca0bb7f4265f" category="section-title">Alterar dinamicamente os níveis de serviço</block>
+  <block id="65ade213f17aabb636c7c98c83fa9121" category="paragraph">Agora você pode alterar dinamicamente o nível de serviço de um volume para atender às necessidades de workload e otimizar seus custos. O volume é movido para o outro pool de capacidade sem afetar o volume.</block>
+  <block id="f89e84889d5fd0c46e9997ddb21ac922" category="inline-link">Saiba como alterar o nível de serviço de um volume</block>
+  <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>.</block>
+  <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">3 de agosto de 2020</block>
+  <block id="629ca03a8a495acd7bc18927ca4da6cc" category="section-title">Configuração e gerenciamento do Azure NetApp Files</block>
+  <block id="51faca1c58439a1d1223104a28f554cc" category="paragraph">Configure e gerencie o Azure NetApp Files diretamente do Cloud Manager. Depois de criar um ambiente de trabalho do Azure NetApp Files, você pode concluir as seguintes tarefas:</block>
+  <block id="a42ed9034f13a0f6a3660f2c241f605f" category="list-text">Criar volumes NFS e SMB.</block>
+  <block id="0d293213ebed3e92e24e1624dfd19aa2" category="list-text">Gerenciar pools de capacidade e snapshots de volume</block>
+  <block id="e54595e40dfd177a2a9e671c794a3a4d" category="paragraph">O Cloud Manager permite criar, excluir e restaurar snapshots de volume. Você também pode criar novos pools de capacidade e especificar seus níveis de serviço.</block>
+  <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">Edite um volume alterando seu tamanho e gerenciando tags.</block>
+  <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">A capacidade de criar e gerenciar o Azure NetApp Files diretamente do Cloud Manager substitui o recurso de migração de dados anterior.</block>
+  <block id="173fd2f937506a4111b0bc09349619a8" category="section-title">5 de abril de 2020</block>
+  <block id="02a58c551f186d8f833147198d69fb26" category="section-title">Migração de dados para o Azure NetApp Files</block>
+  <block id="cc4556ad288d7fd7e7c9f944615b36c2" category="paragraph">Agora é possível migrar dados NFS ou SMB para o Azure NetApp Files diretamente do Cloud Manager. As sincronizações de dados são alimentadas por cópia e sincronização do BlueXP .</block>
+  <block id="d75d347ae1d51e933d39fea688b0abf1" category="sidebar">Azure NetApp Files docs</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de lançamento</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
+  <block id="edbcf53081d21cc9d84e0c1b1c31c425" category="sidebar">Crie um ambiente de trabalho</block>
+  <block id="6ade0d3f74b8a5014c9cb307d47a0cb4" category="sidebar">Use o Azure NetApp Files</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
+</blocks>

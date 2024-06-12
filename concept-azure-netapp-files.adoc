@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: concept-azure-netapp-files.html 
+keywords: azure netapp files, cost, price, features, azure netapp files features, anf, supported regions, azure regions, azure netapp files regions 
+summary: O Azure NetApp Files permite que as empresas migrem e executem aplicações essenciais aos negócios essenciais aos negócios sensíveis à latência e exigentes no Azure, sem precisar refatorar a nuvem. 
+---
+= Saiba mais sobre o Azure NetApp Files
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O Azure NetApp Files permite que as empresas migrem e executem aplicações essenciais aos negócios essenciais aos negócios sensíveis à latência e exigentes no Azure, sem precisar refatorar a nuvem.
+
+
+
+== Caraterísticas
+
+* O suporte a vários protocolos permite que as aplicações Linux e Windows sejam executadas de forma otimizada no Azure.
+* Várias camadas de performance permitem um alinhamento próximo aos requisitos de performance de workload.
+* As principais certificações, incluindo SAP HANA, GDPR e HIPAA, permitem a migração dos workloads mais exigentes para o Azure.
+
+
+
+
+== Recursos adicionais no BlueXP 
+
+* Migre dados NFS ou SMB para o Azure NetApp Files diretamente a partir do BlueXP . As migrações de dados são alimentadas por cópia e sincronização do BlueXP .
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["Saiba mais sobre cópia e sincronização do BlueXP "^]
+
+* Usando tecnologia orientada por inteligência artificial (AI), a classificação da BlueXP  pode ajudar você a entender o contexto dos dados e identificar dados confidenciais que residem em suas contas do Azure NetApp Files.
++
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Saiba mais sobre a classificação BlueXP "^]
+
+
+
+
+
+== Custo
+
+https://azure.microsoft.com/pricing/details/netapp/["Ver preços do Azure NetApp Files"^]
+
+Tenha em atenção que a sua subscrição e carregamento são mantidos pelo serviço Azure NetApp Files e não pela BlueXP .
+
+
+
+== Regiões suportadas
+
+https://cloud.netapp.com/cloud-volumes-global-regions["Ver regiões do Azure suportadas"^]
+
+
+
+== Obter ajuda
+
+Para problemas de suporte técnico associados ao Azure NetApp Files, use o portal do Azure para Registrar uma solicitação de suporte à Microsoft. Selecione sua assinatura Microsoft associada e selecione o nome do serviço *Azure NetApp Files* em *armazenamento*. Forneça as informações restantes necessárias para criar sua solicitação de suporte da Microsoft.
+
+
+
+== Links relacionados
+
+* https://cloud.netapp.com/azure-netapp-files["NetApp BlueXP  website: Azure NetApp Files"^]
+* https://docs.microsoft.com/azure/azure-netapp-files/["Documentação do Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Documentação de cópia e sincronização do BlueXP"^]
+
