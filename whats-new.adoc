@@ -18,35 +18,23 @@ Saiba o que há de novo com o Azure NetApp Files no BlueXP .
 
 
 
-== 12 de junho de 2024
+== 13 de janeiro de 2024
 
 
 
-=== Nova permissão necessária
+=== Recursos de rede agora suportados no BlueXP 
 
-Agora é necessária a permissão a seguir para gerenciar volumes do Azure NetApp Files a partir do BlueXP :
-
-Microsoft.Network/virtualNetworks/subnets/read
-
-Esta permissão é necessária para ler uma sub-rede virtual.
-
-Se você estiver gerenciando o Azure NetApp Files do BlueXP  no momento, precisará adicionar essa permissão à função personalizada associada ao aplicativo Microsoft Entra que você criou anteriormente.
-
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Saiba como configurar um aplicativo Microsoft Entra e exibir as permissões de função personalizadas"].
-
-
-
-== 22 de abril de 2024
-
-
-
-=== Modelos de volume já não são suportados
-
-Você não pode mais criar um volume a partir de um modelo. Essa ação foi associada ao serviço de correção do BlueXP , que não está mais disponível.
+Ao configurar um volume no Azure NetApp Files a partir do BlueXP , agora você pode indicar recursos de rede. Isso se alinha à funcionalidade disponível no Azure NetApp Files nativo.
 
 
 
 == 11 de abril de 2021
+
+
+
+=== Suporte para modelos de volume
+
+Um novo serviço modelos de aplicativos permite configurar um modelo de volume para o Azure NetApp Files. O modelo deve facilitar o trabalho porque certos parâmetros de volume já serão definidos no modelo, como pool de capacidade, tamanho, protocolo, VNet e sub-rede onde o volume deve residir e muito mais. Quando um parâmetro já está predefinido, você pode simplesmente pular para o próximo parâmetro de volume.
 
 
 

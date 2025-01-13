@@ -68,8 +68,6 @@
   <block id="0dc3251c60a979588ce5f7932e69ba87" category="list-text">*Pool de capacidade*: Selecione um pool de capacidade existente ou crie um novo pool de capacidade.</block>
   <block id="79f05e8f99917560625d1cf3f2d4fc5d" category="inline-link">nível de serviço</block>
   <block id="c35795b8ffe511f480a251678339892b" category="paragraph">Se você criar um novo pool de capacidade, precisará especificar um tamanho e selecionar um<block ref="f998dd47925b345cb96cc9547dcf35dc" category="inline-link-rx"></block>.</block>
-  <block id="a3c94c8b9f3c752262861375cf98a86e" category="paragraph">O tamanho mínimo para o pool de capacidade é de 4 TB. Você pode especificar um tamanho em múltiplos de 4 TB.</block>
-  <block id="485ef9124372f546b80f3713ee3e96b4" category="list-text">*Detalhes e Tags*: Insira um nome e tamanho de volume, o VNet e a sub-rede onde o volume deve residir e, opcionalmente, especifique tags para o volume.</block>
   <block id="3b608e06daf087ff8d8ec6c3426b4e86" category="list-text">*Protocolo*: Escolha o protocolo NFS ou SMB e insira as informações necessárias.</block>
   <block id="91080ec993aad166af2bca2fdc134255" category="paragraph">Aqui está um exemplo de detalhes para NFS.</block>
   <block id="dea14d87fa3d65df58f3beda6ccb3a30" category="inline-image-macro">Uma captura de tela dos campos necessários para configurar um volume NFS.</block>
@@ -80,7 +78,6 @@
   <block id="405c1e241cc1b6685d6c0cc7dbbc8042" category="list-text">Se quiser que esse volume seja criado com base em um instantâneo de um volume existente, selecione o instantâneo na lista suspensa Nome do instantâneo.</block>
   <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">Clique em *Adicionar volume*.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Resultado</block>
-  <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">O novo volume é adicionado ao ambiente de trabalho.</block>
   <block id="eaae7feedfb57c4ccdcc53c186726c56" category="inline-xref">montagem do volume de nuvem</block>
   <block id="2f8952d0a4fb138ef90f78fb9a50fe88" category="paragraph">Continue com <block ref="b0f2178360372267ad19e1e8e4741e99" category="inline-xref-macro-rx"></block>.</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">Monte volumes</block>
@@ -298,85 +295,12 @@
   <block id="5f92aba7d335e90da33ac643d56ed817" category="list-text">ID da aplicação (cliente)</block>
   <block id="ac1fdeeca5975112ea2d53b754a4c94f" category="list-text">ID do diretório (locatário)</block>
   <block id="c543fc2439a41974bc2b6bac672d9710" category="inline-xref">Criou a aplicação AD</block>
-  <block id="afc754526203b8139d9e8e3b479e16eb" category="paragraph">Você deve ter capturado essas informações quando <block ref="4c04735d63ac87af1416aeb4d3d106f8" category="inline-xref-macro-rx"></block>.</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">*Revisão*: Confirme os detalhes sobre as novas credenciais e clique em *Adicionar*.</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">Antes de poder abrir um caso de suporte com o suporte técnico da NetApp, você precisa adicionar uma conta do site de suporte da NetApp à BlueXP  e, em seguida, Registrar-se para suporte.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registre-se para obter suporte</block>
-  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">O Registro de suporte é necessário para receber suporte técnico específico da BlueXP  e de suas soluções e serviços de storage. O Registro de suporte também é necessário para habilitar fluxos de trabalho importantes para sistemas Cloud Volumes ONTAP.</block>
-  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">O Registro para suporte não ativa o suporte do NetApp para um serviço de arquivos de provedor de nuvem. Para obter suporte técnico relacionado a um serviço de arquivo de provedor de nuvem, sua infraestrutura ou qualquer solução usando o serviço, consulte "obter ajuda" na documentação do BlueXP  para esse produto.</block>
-  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Visão geral do Registro de suporte</block>
-  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Existem duas formas de Registro para ativar o direito de suporte:</block>
-  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">Registar o número de série da sua conta BlueXP  (o número de série 960xxxxxxxxx de 20 dígitos localizado na página recursos de suporte no BlueXP ).</block>
-  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Isso serve como seu ID de assinatura de suporte único para qualquer serviço no BlueXP . Cada assinatura de suporte no nível de conta do BlueXP  deve ser registrada.</block>
-  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrando os números de série do Cloud Volumes ONTAP associados a uma assinatura no mercado do seu provedor de nuvem (estes são números de série de 20 dígitos 909201xxxxxxxx).</block>
-  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Esses números de série são comumente referidos como _PAYGO serial numbers_ e são gerados pelo BlueXP  no momento da implantação do Cloud Volumes ONTAP.</block>
-  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">Registrar ambos os tipos de números de série permite recursos como abrir tickets de suporte e geração automática de casos. O Registro é concluído adicionando contas do site de suporte da NetApp (NSS) ao BlueXP , conforme descrito abaixo.</block>
-  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">Registre o BlueXP  para obter suporte ao NetApp</block>
-  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">Para se Registrar para obter suporte e ativar o direito de suporte, um usuário em sua organização (ou conta) do BlueXP  deve associar uma conta do site de suporte da NetApp ao login do BlueXP . A forma como você se Registra no suporte da NetApp depende se você já tem uma conta do site de suporte da NetApp (NSS).</block>
-  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente existente com uma conta NSS</block>
-  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Se você é um cliente da NetApp com uma conta NSS, você simplesmente precisa se Registrar para obter suporte através do BlueXP .</block>
-  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">No canto superior direito do console BlueXP , selecione o ícone Configurações e selecione *credenciais*.</block>
-  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Selecione *credenciais do usuário*.</block>
-  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Selecione *Adicionar credenciais NSS* e siga o prompt de autenticação do site de suporte da NetApp (NSS).</block>
-  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Para confirmar que o processo de Registro foi bem-sucedido, selecione o ícone Ajuda e selecione *suporte*.</block>
-  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">A página *recursos* deve mostrar que sua organização do BlueXP  está registrada para suporte.</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Uma captura de tela que mostra um número de série de conta e uma caixa de seleção verde e o texto registrado para suporte.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">Observe que outros usuários do BlueXP  não verão esse mesmo status de Registro de suporte se não tiverem associado uma conta do site de suporte da NetApp ao login do BlueXP . No entanto, isso não significa que sua organização do BlueXP  não esteja registrada para suporte. Desde que um usuário na organização tenha seguido esses passos, sua organização foi registrada.</block>
-  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente existente, mas sem conta NSS</block>
-  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">Se você já é um cliente NetApp com licenças e números de série existentes, mas _no_ conta NSS, você precisa criar uma conta NSS e associá-la ao seu login no BlueXP .</block>
-  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulário de Registro do usuário do site de suporte da NetApp</block>
-  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Crie uma conta do site de suporte da NetApp preenchendo o.<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
-  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Certifique-se de selecionar o nível de usuário apropriado, que normalmente é *Cliente NetApp/Usuário final*.</block>
-  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Certifique-se de copiar o número de série da conta BlueXP  (960xxxx) usado acima para o campo de número de série. Isto irá acelerar o processamento da conta.</block>
-  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Associe a sua nova conta NSS ao seu login no BlueXP  executando as etapas em <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
-  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Novo na NetApp</block>
-  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Se você é novo no NetApp e não tem uma conta NSS, siga cada passo abaixo.</block>
-  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">No canto superior direito do console do BlueXP , selecione o ícone Ajuda e selecione *suporte*.</block>
-  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Uma captura de tela do menu Ajuda onde suporte é a primeira opção listada</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Localize o número de série da ID da conta na página Registro de suporte.</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site de Registro de suporte da NetApp</block>
-  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navegue<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> e selecione *não sou um Cliente NetApp registado*.</block>
-  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Preencha os campos obrigatórios (aqueles com asteriscos vermelhos).</block>
-  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">No campo *linha de produtos*, selecione *Cloud Manager* e, em seguida, selecione seu provedor de cobrança aplicável.</block>
-  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copie o número de série da sua conta a partir da etapa 2 acima, complete a verificação de segurança e confirme se leu a Política de Privacidade de dados globais da NetApp.</block>
-  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Um e-mail é enviado imediatamente para a caixa de correio fornecida para finalizar esta transação segura. Certifique-se de verificar suas pastas de spam se o e-mail de validação não chegar em poucos minutos.</block>
-  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirme a ação a partir do e-mail.</block>
-  <block id="201080500e946070a2e4873042507c77" category="paragraph">A confirmação envia sua solicitação à NetApp e recomenda que você crie uma conta do site de suporte da NetApp.</block>
-  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Certifique-se de copiar o número de série da conta (960xxxx) usado acima para o campo de número de série. Isto irá acelerar o processamento.</block>
-  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">O NetApp deve entrar em Contato com você durante esse processo. Este é um exercício de integração única para novos usuários.</block>
-  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Depois de ter sua conta do site de suporte da NetApp, associe a conta ao login do BlueXP , executando as etapas em <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
-  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Associar credenciais NSS para suporte ao Cloud Volumes ONTAP</block>
-  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">A associação das credenciais do site de suporte da NetApp à sua organização do BlueXP  é necessária para ativar os seguintes fluxos de trabalho principais para o Cloud Volumes ONTAP:</block>
-  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registro de sistemas Cloud Volumes ONTAP de pagamento conforme o uso para suporte</block>
-  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Fornecer sua conta NSS é necessário para ativar o suporte para o seu sistema e para obter acesso aos recursos de suporte técnico da NetApp.</block>
-  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Implantando o Cloud Volumes ONTAP quando você traz sua própria licença (BYOL)</block>
-  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">É necessário fornecer a sua conta NSS para que o BlueXP  possa carregar a sua chave de licença e ativar a subscrição para o período que adquiriu. Isso inclui atualizações automáticas para renovações de prazo.</block>
-  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Atualizar o software Cloud Volumes ONTAP para a versão mais recente</block>
-  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">Associar credenciais NSS à sua organização do BlueXP  é diferente da conta NSS associada a um login de usuário do BlueXP .</block>
-  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Essas credenciais do NSS estão associadas ao ID específico da organização do BlueXP . Os utilizadores que pertencem à organização BlueXP  podem aceder a estas credenciais a partir de *suporte &gt; Gestão NSS*.</block>
-  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Se você tiver uma conta no nível do cliente, pode adicionar uma ou mais contas NSS.</block>
-  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Se você tiver uma conta de parceiro ou revendedor, você pode adicionar uma ou mais contas NSS, mas elas não podem ser adicionadas ao lado de contas de nível de cliente.</block>
-  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Selecione *NSS Management &gt; Add NSS Account* (Gestão NSS &gt; Adicionar conta NSS*).</block>
-  <block id="85b9386ed443776127e099931d73448a" category="list-text">Quando for solicitado, selecione *continuar* para ser redirecionado para uma página de login da Microsoft.</block>
-  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">O NetApp usa o Microsoft Entra ID como provedor de identidade para serviços de autenticação específicos para suporte e licenciamento.</block>
-  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Na página de login, forneça seu endereço de e-mail e senha registrados no site de suporte da NetApp para executar o processo de autenticação.</block>
-  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Essas ações permitem que o BlueXP  use sua conta NSS para tarefas como downloads de licenças, verificação de atualização de software e futuros Registros de suporte.</block>
-  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">A conta NSS tem de ser uma conta ao nível do cliente (não uma conta de convidado ou temporária). Você pode ter várias contas NSS no nível do cliente.</block>
-  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Só pode haver uma conta NSS se essa conta for uma conta de nível de parceiro. Se você tentar adicionar contas NSS no nível do cliente e existir uma conta no nível do parceiro, você receberá a seguinte mensagem de erro:</block>
-  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"O tipo de cliente NSS não é permitido para esta conta, uma vez que já existem utilizadores NSS de tipo diferente."</block>
-  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">O mesmo acontece se você tiver contas NSS pré-existentes no nível do cliente e tentar adicionar uma conta no nível do parceiro.</block>
-  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Após o login bem-sucedido, o NetApp armazenará o nome de usuário do NSS.</block>
-  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Um ícone de três pontos horizontais</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Este é um ID gerado pelo sistema que mapeia para o seu e-mail. Na página *NSS Management*, você pode exibir seu e-mail no <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Se você precisar atualizar seus tokens de credenciais de login, há também uma opção *Atualizar credenciais* <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>no menu.</block>
-  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Usando esta opção, você solicita que você faça login novamente. Observe que o token para essas contas expira após 90 dias. Uma notificação será postada para alertá-lo sobre isso.</block>
   <block id="ec8be1aa6f229a1cfbf31d037b056568" category="summary">Saiba o que há de novo com o suporte do Azure NetApp Files no BlueXP .</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">O que há de novo</block>
   <block id="dd8cfbf7cdf2a4e727620130a84e82ae" category="paragraph">Saiba o que há de novo com o Azure NetApp Files no BlueXP .</block>
-  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">12 de junho de 2024</block>
   <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">Nova permissão necessária</block>
   <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">Agora é necessária a permissão a seguir para gerenciar volumes do Azure NetApp Files a partir do BlueXP :</block>
   <block id="d84dc0ddea3fe691a4f90418dade9248" category="paragraph">Microsoft.Network/virtualNetworks/subnets/read</block>
@@ -384,7 +308,6 @@
   <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">Se você estiver gerenciando o Azure NetApp Files do BlueXP  no momento, precisará adicionar essa permissão à função personalizada associada ao aplicativo Microsoft Entra que você criou anteriormente.</block>
   <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">Saiba como configurar um aplicativo Microsoft Entra e exibir as permissões de função personalizadas</block>
   <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block>.</block>
-  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">22 de abril de 2024</block>
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">Modelos de volume já não são suportados</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Você não pode mais criar um volume a partir de um modelo. Essa ação foi associada ao serviço de correção do BlueXP , que não está mais disponível.</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">11 de abril de 2021</block>
@@ -417,4 +340,19 @@
   <block id="edbcf53081d21cc9d84e0c1b1c31c425" category="sidebar">Crie um ambiente de trabalho</block>
   <block id="6ade0d3f74b8a5014c9cb307d47a0cb4" category="sidebar">Use o Azure NetApp Files</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
+  <block id="86e3b7f77128a049533b5445da657522" category="paragraph">O tamanho mínimo para o pool de capacidade é de 1 TB.</block>
+  <block id="d352d194ef35b54554fafe164b53f54d" category="list-text">*Detalhes e Tags*: Insira o nome e o tamanho do volume, o VNet e a sub-rede onde o volume deve residir e, opcionalmente, especifique tags para o volume. Escolha a rede *Standard* ou *Basic*. *Standard* suporta recursos de rede virtual (VNet) enquanto *Basic* tem limites de IP reduzidos ( cliente 1000) e nenhum recurso VNet adicional para o volume.</block>
+  <block id="c1a426ed57a11a54bde5213e87220a02" category="paragraph">O exemplo a seguir descreve um volume chamado *demo-s*, não aplica nenhuma tag e indica que o volume usará a rede *Standard*, que suporta recursos VNet.</block>
+  <block id="48e9be49dc32da6c370f21b3d9772365" category="inline-image-macro">Uma captura de tela de um volume de exemplo.</block>
+  <block id="b24ab147925f16b37f121445ea8c20f2" category="paragraph"><block ref="b24ab147925f16b37f121445ea8c20f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10bf7641576f767efba644c9606f6cc9" category="paragraph">Você deve ter capturado essas informações quando <block ref="3d73f215425eb80e2dfd60570210a450" category="inline-xref-macro-rx"></block>.</block>
+  <block id="ce52a320f18bd38ac094ba2db0b8f361" category="section-title">13 de janeiro de 2024</block>
+  <block id="944c1cc3564ebb8c58254a0340102350" category="section-title">Recursos de rede agora suportados no BlueXP </block>
+  <block id="4a54d31f5399a3b4ca4479fc3818c42c" category="paragraph">Ao configurar um volume no Azure NetApp Files a partir do BlueXP , agora você pode indicar recursos de rede. Isso se alinha à funcionalidade disponível no Azure NetApp Files nativo.</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Início rápido</block>
+  <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">Gerenciar volumes</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs &amp; comunidade</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidade NetApp</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP  blog</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinars na nuvem</block>
 </blocks>

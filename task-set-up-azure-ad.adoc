@@ -156,7 +156,7 @@ image:screenshot_settings_icon.gif["Uma captura de tela que mostra o ícone Conf
 *** ID da aplicação (cliente)
 *** ID do diretório (locatário)
 +
-Você deve ter capturado essas informações quando <<Create the AD application,Criou a aplicação AD>>.
+Você deve ter capturado essas informações quando <<create-AD-application,Criou a aplicação AD>>.
 
 
 
