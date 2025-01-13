@@ -347,12 +347,12 @@
   <block id="b24ab147925f16b37f121445ea8c20f2" category="paragraph"><block ref="b24ab147925f16b37f121445ea8c20f2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="10bf7641576f767efba644c9606f6cc9" category="paragraph">Você deve ter capturado essas informações quando <block ref="3d73f215425eb80e2dfd60570210a450" category="inline-xref-macro-rx"></block>.</block>
   <block id="ce52a320f18bd38ac094ba2db0b8f361" category="section-title">13 de janeiro de 2024</block>
-  <block id="944c1cc3564ebb8c58254a0340102350" category="section-title">Recursos de rede agora suportados no BlueXP </block>
-  <block id="4a54d31f5399a3b4ca4479fc3818c42c" category="paragraph">Ao configurar um volume no Azure NetApp Files a partir do BlueXP , agora você pode indicar recursos de rede. Isso se alinha à funcionalidade disponível no Azure NetApp Files nativo.</block>
+  <block id="944c1cc3564ebb8c58254a0340102350" category="section-title">Recursos de rede agora suportados no BlueXP</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Início rápido</block>
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">Gerenciar volumes</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs &amp; comunidade</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidade NetApp</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP  blog</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinars na nuvem</block>
+  <block id="79d2f91b3755917d79acfd5be561d67b" category="paragraph">Ao configurar um volume no Azure NetApp Files a partir do BlueXP , agora você pode indicar recursos de rede. Isso se alinha à funcionalidade disponível no Azure NetApp Files nativo.</block>
 </blocks>
