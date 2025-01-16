@@ -18,7 +18,7 @@ Saiba o que há de novo com o Azure NetApp Files no BlueXP .
 
 
 
-== 13 de janeiro de 2024
+== 13 de janeiro de 2025
 
 
 
@@ -28,7 +28,7 @@ Ao configurar um volume no Azure NetApp Files a partir do BlueXP , agora você 
 
 
 
-== bbe4d8abcc3519b138a73b8e46ee2119
+== 12 de junho de 2024
 
 
 
@@ -46,7 +46,7 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-== 9d5b3307d5a7d5905623bf21ab049bdd
+== 22 de abril de 2024
 
 
 
